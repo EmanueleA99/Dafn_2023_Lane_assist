@@ -1,0 +1,9 @@
+/front_detector:
+  ros__parameters:
+    centering_width: 150
+    compute_position: false
+    rotate_image: false
+    target_ids:
+      - 16
+      - 42
+    transport: compressed

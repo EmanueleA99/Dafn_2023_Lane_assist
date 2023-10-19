@@ -1,0 +1,5 @@
+/car1/lane_sub:
+  ros__parameters:
+    proportional_kc: 0.1
+    linear_velocity: 5.0
+    transport: compressed

@@ -1,0 +1,13 @@
+/image_processing_pipeline/aruco_detector:
+  ros__parameters:
+    aruco_side: 0.15
+    camera_offset: 0.08
+    camera_topic: '/image_processing_pipeline/usb_camera_driver/camera/image_color'
+    centering_width: 150
+    compute_position: false
+    error_min: 0.1
+    rotate_image: false
+    target_ids:
+      - 16
+      - 42
+    transport: compressed
